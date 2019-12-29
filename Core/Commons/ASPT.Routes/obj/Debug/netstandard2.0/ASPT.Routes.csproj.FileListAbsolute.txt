@@ -1,8 +1,0 @@
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\bin\Debug\netstandard2.0\ASPT.Routes.deps.json
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\bin\Debug\netstandard2.0\ASPT.Routes.dll
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\bin\Debug\netstandard2.0\ASPT.Routes.pdb
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\obj\Debug\netstandard2.0\ASPT.Routes.csprojAssemblyReference.cache
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\obj\Debug\netstandard2.0\ASPT.Routes.AssemblyInfoInputs.cache
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\obj\Debug\netstandard2.0\ASPT.Routes.AssemblyInfo.cs
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\obj\Debug\netstandard2.0\ASPT.Routes.dll
-D:\C#\ASPTemplate\Core\Commons\ASPT.Routes\obj\Debug\netstandard2.0\ASPT.Routes.pdb

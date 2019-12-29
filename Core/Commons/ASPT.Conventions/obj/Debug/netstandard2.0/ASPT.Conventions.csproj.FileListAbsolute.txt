@@ -1,8 +1,0 @@
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\bin\Debug\netstandard2.0\ASPT.Conventions.deps.json
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\bin\Debug\netstandard2.0\ASPT.Conventions.dll
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\bin\Debug\netstandard2.0\ASPT.Conventions.pdb
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\obj\Debug\netstandard2.0\ASPT.Conventions.csprojAssemblyReference.cache
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\obj\Debug\netstandard2.0\ASPT.Conventions.AssemblyInfoInputs.cache
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\obj\Debug\netstandard2.0\ASPT.Conventions.AssemblyInfo.cs
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\obj\Debug\netstandard2.0\ASPT.Conventions.dll
-D:\C#\ASPTemplate\Core\Commons\ASPT.Conventions\obj\Debug\netstandard2.0\ASPT.Conventions.pdb

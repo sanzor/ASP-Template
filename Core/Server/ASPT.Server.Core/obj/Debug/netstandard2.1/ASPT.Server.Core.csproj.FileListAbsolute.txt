@@ -1,7 +1,0 @@
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\bin\Debug\netstandard2.1\ASPT.Server.Core.deps.json
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\bin\Debug\netstandard2.1\ASPT.Server.Core.dll
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\bin\Debug\netstandard2.1\ASPT.Server.Core.pdb
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\obj\Debug\netstandard2.1\ASPT.Server.Core.AssemblyInfoInputs.cache
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\obj\Debug\netstandard2.1\ASPT.Server.Core.AssemblyInfo.cs
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\obj\Debug\netstandard2.1\ASPT.Server.Core.dll
-D:\C#\ASPTemplate\Core\Server\ASPT.Server.Core\obj\Debug\netstandard2.1\ASPT.Server.Core.pdb
