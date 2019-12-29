@@ -10,7 +10,7 @@ https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 *.user
 *.userosscache
 *.sln.docstates
-
+.vs/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
