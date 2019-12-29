@@ -1,0 +1,8 @@
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\bin\Debug\netstandard2.1\ASPT.Extensions.deps.json
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\bin\Debug\netstandard2.1\ASPT.Extensions.dll
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\bin\Debug\netstandard2.1\ASPT.Extensions.pdb
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\obj\Debug\netstandard2.1\ASPT.Extensions.csprojAssemblyReference.cache
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\obj\Debug\netstandard2.1\ASPT.Extensions.AssemblyInfoInputs.cache
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\obj\Debug\netstandard2.1\ASPT.Extensions.AssemblyInfo.cs
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\obj\Debug\netstandard2.1\ASPT.Extensions.dll
+D:\C#\ASPTemplate\Core\Commons\ASPT.Extensions\obj\Debug\netstandard2.1\ASPT.Extensions.pdb
