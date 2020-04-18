@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ASPT.Conventions;
+using ASPT.DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,7 +26,9 @@ namespace ASPT.Server {
 
             Config config = this.Configuration.GetSection("config").Get<Config>();
             services.Configure<Config>(this.Configuration.GetSection("config"));
+            //services.AddDbContext<ASPTContext>(x => x.UseSqlServer(config.Sql.Constring));
             services.AddControllers();
+           
             services.AddSwaggerGen(x => {
                 x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo {
                     Title = config.Swagger.Title,
@@ -52,6 +56,7 @@ namespace ASPT.Server {
             if (env.IsDevelopment()) {
                 app.UseDeveloperExceptionPage();
             }
+           // app.UseFileServer(new FileServerOptions { RequestPath="/",FileProvider=new fileprovider})
             app.UseSwagger();
             app.UseSwaggerUI(x => {
                 x.SwaggerEndpoint("/swagger/v1/swagger.json", "versions");

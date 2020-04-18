@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace ASPT.Interfaces {
+namespace ASPT.DataAccess {
     public interface IGenericRepository<T> {
         Task InsertAsync(T entity);
         bool Remove(object id);
