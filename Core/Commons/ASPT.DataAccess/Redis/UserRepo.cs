@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ASPT.DataAccess {
-    public class UserRepository {
+    public class UserRepo {
         private RedisStore store;
         private Func<User, string> ToKey = x => $"user:{x.Id}";
-        public UserRepository(RedisStore store) {
+        public UserRepo(RedisStore store) {
             this.store = store;
         }
         public async Task UpdateUserAsync(User user) {
