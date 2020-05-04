@@ -14,4 +14,6 @@ I have created this template to be able to reuse in upcoming projects.
          - Sample model
      - NoSQL (Redis)
            - Basic CRUD Operations based on initial model
+  - **Extensions**:
+     - Encoding
         
