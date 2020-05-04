@@ -1,5 +1,5 @@
-# ASPT
-
+# ASP-Template
+ASP NET Core 3.1 template with basic functionality provided such as logging,storage and configuration provider
 
 ## Purpose:
 I have created this template to be able to reuse in upcoming projects.
