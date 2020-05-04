@@ -5,6 +5,7 @@
 I have created this template to be able to reuse in upcoming projects.
 
 ## Integrated functionality:
+  - **Configuration** : Configuration provided by json file
   - **Logging** : Done via `Serilog` library , also a default logging template is provided
   - **Storage**:
      - SQL (SQL Server)
