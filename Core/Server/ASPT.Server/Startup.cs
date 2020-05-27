@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using ASPT.Conventions;
 using ASPT.DataAccess;
+using ASPT.Interfaces;
+using ASPT.Server.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -26,9 +28,10 @@ namespace ASPT.Server {
 
             Config config = this.Configuration.GetSection("config").Get<Config>();
             services.Configure<Config>(this.Configuration.GetSection("config"));
-            //services.AddDbContext<ASPTContext>(x => x.UseSqlServer(config.Sql.Constring));
+            services.AddDbContext<ASPTContext>(x => x.UseSqlServer(config.Sql.Constring));
             services.AddControllers();
-           
+            services.AddTransient<IUserService, SQLUserService>();
+            services.AddTransient<IUserService, RedisUserService>();
             services.AddSwaggerGen(x => {
                 x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo {
                     Title = config.Swagger.Title,

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ASPT.Interfaces {
+namespace ASPT.Models {
     public interface IIdentifiable {
         public object Id { get;  }
     }
